@@ -1,0 +1,5 @@
+*.png binary
+*.jpeg binary
+*.svn text
+*.py text
+*.dta binary
