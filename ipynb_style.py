@@ -90,6 +90,16 @@ font-size: 14pt;
  font-family: Consolas, monospace;
  }
 
+.CodeMirror-lines {
+font-size: 120%;
+font-family: Consolas monospace;
+}
+
+.output_area {
+font-size: 120%;
+font-family: Consolas;
+}
+
 .rendered_html ol {list-style:decimal; margin: 1em 2em;}
 
 </style>
