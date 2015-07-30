@@ -41,6 +41,34 @@ font-size: 14pt;
 .rendered_html ol {list-style:decimal; margin: 1em 2em;}
 
 </style>
+<style>table.dataframe {
+border-collapse: collapse;
+border: none;
+font-size:100%;
+}</style>
+
+<style>table.dataframe tr {
+border: none;
+}
+table.dataframe td, table.dataframe th {
+margin: 0;
+border: 1px solid white;
+padding-left: 0.25em;
+padding-right: 0.25em;
+}
+table.dataframe th:not(:empty) {
+background-color: #fec;
+text-align: left;
+font-weight: normal;
+}
+table.dataframe tr:nth-child(2) th:empty {
+border-left: none;
+border-right: 1px dashed #888;
+}
+table.dataframe td {
+border: 2px solid #ccf;
+background-color: #f4f4ff;
+}</style>
 """)
 
 
@@ -113,12 +141,12 @@ def pres2():
 
     return IPython.core.display.HTML("""
 <style>.rendered_html {
-font-size: 150%;
+font-size: 200%;
 line-height: 1.3;
 }</style>
 
 <style>.rendered_html li {
-line-height: 2;
+line-height: 2.3;
 }</style>
 
 <style>.rendered_html h1{
@@ -132,17 +160,46 @@ line-height: 1.2;
 }</style>
 
 <style>.input_prompt {
-font-size: 120%;
+font-size: 140%;
 font-family: Consolas;
 }</style>
 
 <style>.CodeMirror-lines {
-font-size: 120%;
+font-size: 140%;
 font-family: Consolas;
 }</style>
 
 <style>.output_area {
-font-size: 120%;
+font-size: 140%;
 font-family: Consolas;
+}</style>
+
+<style>table.dataframe {
+border-collapse: collapse;
+border: none;
+font-size:65%;
+}</style>
+
+<style>table.dataframe tr {
+border: none;
+}
+table.dataframe td, table.dataframe th {
+margin: 0;
+border: 1px solid white;
+padding-left: 0.25em;
+padding-right: 0.25em;
+}
+table.dataframe th:not(:empty) {
+background-color: #fec;
+text-align: left;
+font-weight: normal;
+}
+table.dataframe tr:nth-child(2) th:empty {
+border-left: none;
+border-right: 1px dashed #888;
+}
+table.dataframe td {
+border: 2px solid #ccf;
+background-color: #f4f4ff;
 }</style>
 """)
