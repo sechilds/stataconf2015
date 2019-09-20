@@ -6,7 +6,7 @@ at the 2015 Stata conference in Columbus, Ohio.
 * **Dejan Pavlic**, Education Policy Research Initiative, University of Ottawa
 * **Stephen Childs** (presenter), Office of Institutional Analysis, University of Calgary
 
-You can view the resulting presentation on
+You can view the resulting presentation on:
 [nbviewer](http://nbviewer.ipython.org/github/sechilds/stataconf2015/blob/master/StataConf2015.ipynb).
 
 <a href="http://www.stata.com"><img src="Stata_Logo.png" width="300" height="150" style="float: left; display: inline; margin: 10px" alt="Stata"></a>
